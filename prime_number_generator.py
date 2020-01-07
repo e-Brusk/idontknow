@@ -1,7 +1,7 @@
-"""
-   A simple home-made generator function for finding prime numbers between start and end args...
-   """
 def primenums(start,end):
+    """
+    A simple home-made generator function for finding prime numbers between start and end args...
+    """
     if end<2:
         raise ValueError
     number=start
